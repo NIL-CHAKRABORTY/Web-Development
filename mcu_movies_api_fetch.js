@@ -27,3 +27,4 @@ function setting_data(sets){
     console.log(api_fetch[sets])
     localStorage.setItem("api_fetch.products",JSON.stringify(api_fetch.products[sets]))
 }
+//this is a test
