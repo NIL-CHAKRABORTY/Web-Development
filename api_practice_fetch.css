@@ -1,0 +1,52 @@
+#upper_Box{
+    height: 150px;
+    width: 1000px;
+    background-color: #f9f9f9;
+}
+
+.img{
+    margin-top: -546px;
+}
+
+.imge{
+    margin-left: 425px;
+    border-radius: 63px;
+}
+
+#lower_Box{
+    height: 450px;
+    width: 1000px;
+    background-color: #ffffff;
+} 
+
+#Second_api{
+    background-color: aqua;
+    width: 1000px;
+    background-color: #ffffff;
+}
+
+#lower_Box .icon-1:hover{
+    transform: scale(1.1);
+}
+
+#lower_Box .icon-2:hover{
+    transform: scale(1.1);
+}
+
+#lower_Box .icon-3:hover{
+    transform: scale(1.1);
+}
+
+#lower_Box .icon-4:hover{
+    transform: scale(1.1);
+}
+
+/* .box:hover{
+	transform: scale(1.1);
+}
+
+.icon{
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 195px;
+} */

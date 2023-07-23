@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="background-color: aquamarine;">
+    <head>  
+		<title> Registration Page </title>
+        <link rel="stylesheet" href="mcu_movies_api_fetch(4).css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <body>
+            <form action="" method="get" id="nameform" onsubmit="consoleData(event)">
+                <div class="container">
+                    <div id="reg_frm">
+                        <p id="reg_form">REGISTRATION FORM</p>
+                    </div>
+                    <div id="frst_nm">
+						<input type="text" placeholder="FIRST NAME" id="first_name_ans">	
+                    </div>
+                    <div id="lst_nm">
+                        <input type="text" placeholder="LAST NAME" id="last_name_ans">
+                    </div>
+                    <div id="ph_no">
+                        <input type="number" placeholder="PHONE NO" id="phone_no_ans">
+                    </div>
+                    <div id="eml_acc">                       
+                        <input type="email" placeholder="EMAIL" id="email_ans"> 
+                    </div>
+                    <div id="pswrd">
+                        <input type="password" placeholder="PASSWORD" id="pswrd_ans">
+                    </div>
+                    <div>
+                        <button id="sign_up_btn">SIGN UP</button>
+                    </div>
+                </div>
+            </form>
+            <script>
+                function consoleData(event){
+		            event.preventDefault();
+                    var firstname = document.getElementById("first_name_ans");
+                    var lastname =  document.getElementById("last_name_ans");
+                    var phno = document.getElementById("phone_no_ans");
+                    var email = document.getElementById("email_ans");
+                    console.log("FIRST NAME: ", firstname.value);
+                    console.log("LAST NAME: ", lastname.value);
+                    console.log("PHONE NO: ", phno.value);
+                    console.log("EMAIL: ", email.value);
+                }
+            </script>
+        </body>  
+    </head>  
+</html>

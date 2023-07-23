@@ -1,0 +1,111 @@
+#main_div{
+    background-color: aquamarine;
+}
+
+#login_form{
+    margin-left: 321px;
+    width: 400px;
+    height: 336px;
+    margin-top: 150px;
+}
+
+#log_in_form{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#eml_id_ans{
+    float: right;
+    margin-top: 40px;
+    margin-right: 79px;
+    border-radius: 13px;
+	font-family: sans-serif;
+	border: 2px solid #8f8f9d;
+    width: 245px;
+}
+
+#pass_word_ans{
+    float: right;
+    margin-top: 40px;
+    margin-right: 79px;
+    border-radius: 13px;
+	font-family: sans-serif;
+	border: 2px solid #8f8f9d;
+    width: 245px;
+}
+
+#log_in_btn{
+    margin-top: 40px;
+    width: 144px;
+    height: 35px;
+    margin-left: 120px;
+    border-radius: 10px;
+    background-color: #27b397;
+    color: white;
+}
+
+#reg_way{
+    background-color: #68c3c9;
+    width: 268px;
+    height: 336px;
+    margin-left: 721px;
+    margin-top: -336px;
+}
+
+#para_one{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-top: -88px;
+    margin-right: 60px;
+}
+
+#para_two{
+    color: white;
+    float: right;
+    margin-top: -28px;
+    margin-right: 28px;
+}
+
+#registration_question{
+    font-size: 13px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 18px;
+}
+
+#circle_design_one{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-top: -245px;
+    background-color: #48b5a3;
+    float: right;
+    margin-right: 167px;
+    border-radius: 40px;
+}
+
+#circle_design_two{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-top: -273px;
+    background-color: #48b5a3;
+    float: right;
+    margin-right: 54px;
+    border-radius: 40px;
+}
+
+#circle_design_three{
+    display: inline-block;
+    width: 37px;
+    height: 34px;
+    margin-top: -135px;
+    background-color: #48b5a3;
+    float: right;
+    margin-right: 116px;
+    border-radius: 40px;
+}

@@ -1,0 +1,79 @@
+html{
+    background-color: aquamarine;
+}
+
+.container{
+	background-color:#79c5e8;
+    margin: auto;
+    width: 393px;
+    height: 440px;
+    margin-top: 100px;
+    border-radius: 24px;
+}
+
+#reg_form{
+    margin-left: 85px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#first_name_ans{
+    float: right;
+    margin-top: 14px;
+    margin-right: 61px;
+    border: 2px solid #8f8f9d;
+    border-radius: 14px;
+    height: 28px;
+    width: 250px;
+}
+
+#last_name_ans{
+    float: right;
+    margin-top: 26px;
+    margin-right: 61px;
+    border: 2px solid #8f8f9d;
+    border-radius: 14px;
+    height: 28px;
+    width: 250px;
+}
+
+#phone_no_ans{
+    float: right;
+    margin-top: 26px;
+    margin-right: 61px;
+    border: 2px solid #8f8f9d;
+    border-radius: 14px;
+    height: 28px;
+    width: 250px;
+}
+
+#email_ans{
+    float: right;
+    margin-top: 28px;
+    margin-right: 61px;
+    border: 2px solid #8f8f9d;
+    border-radius: 14px;
+    height: 28px;
+    width: 250px;
+}
+
+#pswrd_ans{
+    float: right;
+    margin-top: 28px;
+    margin-right: 61px;
+    border: 2px solid #8f8f9d;
+    border-radius: 14px;
+    height: 28px;
+    width: 250px;   
+}
+
+#sign_up_btn{
+    margin-top: 23px;
+    width: 125px;
+    height: 35px;
+    margin-left: 131px;
+    background-color: #49b6a3;
+    color:white;
+    border-radius: 14px;
+}
